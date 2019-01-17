@@ -1,0 +1,40 @@
+/*google font */
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+/* Background image */
+body {
+    background: url("https://res.cloudinary.com/dcnc0pwwf/image/upload/c_scale,h_2000,q_48,w_1689/v1547743838/background-blank-business-317356.jpg") no-repeat center center ;
+    font-family: 'Raleway', sans-serif;
+}
+.navbar-custom {
+    background-color: #00AFE7;
+}
+
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: rgba(255,255,255,.8);
+}
+
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: rgba(255,255,255,.5);
+}
+
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #ffffff;
+}
+
+/*jumbostrom*/
+.jumbotron
+{
+    background-color: transparent;
+    text-align: center;
+}
+
+.jumbotron button
+{
+    color: #fc5454;
+    font-weight: 900;
+}
