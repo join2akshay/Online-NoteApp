@@ -8,30 +8,38 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Online Note App</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarText">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Help</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Contact Us</a>
-      </li>
-    </ul>
-    
-     <a class="nav-link" href="#">Login</a> 
-    
-  </div>
+  <nav class="navbar navbar-expand-sm navbar-custom">
+    <a href="/" class="navbar-brand">Online Note App</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCustom">
+        <i class="fa fa-bars fa-lg py-1 text-white"></i>
+    </button>
+    <div class="navbar-collapse collapse" id="navbarCustom">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Help</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+            </li>
+            
+        </ul>
+        <span class="ml-auto navbar-text">Login</span>
+    </div>
 </nav>
+<!--jumbotron-->
+<div class="jumbotron">
+  
+  <h1 class="display-2">Online Note App</h1>
+  <p class="lead">Your Notes always with you wherever you go.</p>
+  <p class="lead">Ease to use, Protects all your notes.</p>
+  <button class="btn btn-outline-success" type="button">Sing Up for free</button>
+</div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
