@@ -57,3 +57,11 @@ body {
      color: #ffffff; 
     text-decoration:none;
 }
+.container
+{
+    margin-top: 100px;
+}
+#allNotes , #done
+{
+    display: none;
+}
