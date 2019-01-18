@@ -29,7 +29,7 @@
             </li>
             
         </ul>
-        <span class="ml-auto navbar-text">Login</span>
+        <span class="ml-auto navbar-text"><a data-toggle="modal" data-target="#login">Login</a></span>
     </div>
 </nav>
 <!--jumbotron-->
@@ -38,10 +38,94 @@
   <h1 class="display-2">Online Note App</h1>
   <p class="lead">Your Notes always with you wherever you go.</p>
   <p class="lead">Ease to use, Protects all your notes.</p>
-  <button class="btn btn-outline-success" type="button">Sing Up for free</button>
+  <button class="btn btn-outline-success" type="button" data-toggle="modal" data-target="#myModal" >Sing Up for free</button>
 </div>
-<!--SingUp-->
+<!--LogIn-->
+<form>
+<div class="modal fade bd-example-modal-lg" tabindex="-1" id="login">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
 
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Enter your Log In details</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+      <div class="input-group mb-3">
+  
+  <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+</div>
+<div class="input-group mb-3">
+  
+  <input type="text" class="form-control" placeholder="Password" aria-label="Username" aria-describedby="basic-addon1">
+</div>
+  
+  <div class="row">
+      <div class="col-md-4"><div id="checkbox">
+  <label for="checkbox">
+  <input type="checkbox" name="CheckBox" id="">Remember me</label>
+  </div>
+  </div>
+      <div class="col-md-4 ml-auto"><a href="#">Forget Password</a></div>
+    </div>
+      </div>
+     
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Login</button>
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+</form>
+<!--SingUp-->
+<form>
+<div class="modal fade bd-example-modal-lg" tabindex="-1" id="myModal">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Sing Up today and start using our Online Note App</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+      <div class="input-group mb-3">
+  
+  <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+</div>
+<div class="input-group mb-3">
+  
+  <input type="text" class="form-control" placeholder="Email Address" aria-label="Username" aria-describedby="basic-addon1">
+</div>
+<div class="input-group mb-3">
+  
+  <input type="text" class="form-control" placeholder="Password" aria-label="Username" aria-describedby="basic-addon1">
+</div>
+<div class="input-group mb-3">
+  
+  <input type="text" class="form-control" placeholder="Confirm Password" aria-label="Username" aria-describedby="basic-addon1">
+</div>
+
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success" data-dismiss="modal">Sing Up</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+</form>
 <!--footer-->
 <div class="footer">
   <p>Develpoed by <a href="www.github.com/tvibhu12">Akshay Tiwari</a> </p>
