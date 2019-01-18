@@ -38,7 +38,7 @@
   <h1 class="display-2">Online Note App</h1>
   <p class="lead">Your Notes always with you wherever you go.</p>
   <p class="lead">Ease to use, Protects all your notes.</p>
-  <button class="btn btn-outline-success" type="button" data-toggle="modal" data-target="#myModal" >Sing Up for free</button>
+  <button class="btn btn-outline-success" type="button" data-target="#singup" data-toggle="modal" >Sing Up for free</button>
 </div>
 <!--LogIn-->
 <form>
@@ -69,7 +69,7 @@
   <input type="checkbox" name="CheckBox" id="">Remember me</label>
   </div>
   </div>
-      <div class="col-md-4 ml-auto"><a href="#">Forget Password</a></div>
+      <div class="col-md-4 ml-auto"><a href="" data-dismiss="modal" data-target="#forget" data-toggle="modal">Forget Password</a></div>
     </div>
       </div>
      
@@ -84,9 +84,38 @@
   </div>
 </div>
 </form>
+<!--Forget password-->
+<form>
+<div class="modal fade bd-example-modal-lg" tabindex="-1" id="forget">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Enter your Email for new password</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+      <div class="input-group mb-3">
+  
+  <input type="text" class="form-control" placeholder="Enter your Email" aria-label="Username" aria-describedby="basic-addon1">
+</div>
+</div>
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Submitn</button>
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Cancle</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+</form>
 <!--SingUp-->
 <form>
-<div class="modal fade bd-example-modal-lg" tabindex="-1" id="myModal">
+<div class="modal fade bd-example-modal-lg" tabindex="-1" id="singup">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
 
