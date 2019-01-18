@@ -40,6 +40,12 @@
   <p class="lead">Ease to use, Protects all your notes.</p>
   <button class="btn btn-outline-success" type="button">Sing Up for free</button>
 </div>
+<!--SingUp-->
+
+<!--footer-->
+<div class="footer">
+  <p>Develpoed by <a href="www.github.com/tvibhu12">Akshay Tiwari</a> </p>
+</div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
