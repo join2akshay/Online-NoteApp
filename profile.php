@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>My Notes</title>
+    <title>My Profile</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -18,7 +18,7 @@
     </button>
     <div class="navbar-collapse collapse" id="navbarCustom">
         <ul class="navbar-nav">
-            <li class="nav-item">
+            <li class="nav-item active">
                 <a class="nav-link" href="#">Profile</a>
             </li>
             <li class="nav-item">
@@ -27,7 +27,7 @@
             <li class="nav-item">
                 <a class="nav-link" href="#">Contact Us</a>
             </li>
-            <li class="nav-item active">
+            <li class="nav-item">
                 <a class="nav-link" href="#">My Notes</a>
             </li>
             
@@ -47,11 +47,137 @@
 <div class="container">
     <div class="row">
     <div class="col-md-6 offset-md-3">
+    <h2>General Account Settings</h2>
+    <div class="table-responsive">
+    
+     <table class="table table-hover table-bordered table-light">
+         <tbody>
+         <tr data-target="#updateUsername" data-toggle="modal">
+                 <td>UserName</td>
+                 <td>Value</td>
+             </tr>
+             <tr data-target="#updateEmail" data-toggle="modal">
+                 <td>Email</td>
+                 <td>Value</td>
+             </tr>
+             <tr data-target="#updatePassword" data-toggle="modal">
+                 <td>Password</td>
+                 <td>Value</td>
+             </tr>
+         </tbody>
+     </table>
+     </div>
+    </div>
+    </div>
+    </div>
+    <!--Update Username-->
+    <form>
+<div class="modal fade bd-example-modal-lg" tabindex="-1" id="updateUsername">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Enter your New UserName</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+      <div class="input-group mb-3">
+  
+  <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+</div>
+
+ 
+      </div>
      
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Update</button>
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Cancle</button>
+      </div>
+
     </div>
+  </div>
+</div>
+</form>
+<!--Update Email-->
+<form>
+<div class="modal fade bd-example-modal-lg" tabindex="-1" id="updateEmail">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Enter your New Email</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+      <div class="input-group mb-3">
+  
+  <input type="text" class="form-control" placeholder="Email" aria-label="Username" aria-describedby="basic-addon1">
+</div>
+
+ 
+      </div>
+     
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Update</button>
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Cancle</button>
+      </div>
+
     </div>
+  </div>
+</div>
+</form>
+<!--Update Password-->
+<form>
+<div class="modal fade bd-example-modal-lg" tabindex="-1" id="updatePassword">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Enter your New Password</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+      <div class="input-group mb-3">
+  
+  <input type="password" class="form-control" placeholder="Your current Password" aria-label="Password" aria-describedby="basic-addon1">
+  </div>
+  <div class="input-group mb-3">
+  <input type="password" class="form-control" placeholder="Enter your new Password" aria-label="new Password" aria-describedby="basic-addon1">
+  </div>
+  <div class="input-group mb-3">
+  <input type="password" class="form-control" placeholder="Confrim your Password" aria-label="confrim password" aria-describedby="basic-addon1">
+
+</div>
+
+ 
+      </div>
+     
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Update</button>
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Cancle</button>
+      </div>
+
     </div>
+  </div>
+</div>
+</form>
 <!--footer-->
+
 <div class="footer">
   <p>Develpoed by <a href="www.github.com/tvibhu12">Akshay Tiwari</a> </p>
 </div>
