@@ -75,3 +75,7 @@ textarea
     border-left-width: 20px;
     border-color: blue;
 }
+tr
+{
+    cursor: pointer;
+}
