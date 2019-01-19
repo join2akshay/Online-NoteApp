@@ -65,3 +65,13 @@ body {
 {
     display: none;
 }
+textarea
+{
+    margin-top: 20px;
+    width: 100%;
+    max-width: 100%;
+    line-height: 1.5;
+    font-size: 20px;
+    border-left-width: 20px;
+    border-color: blue;
+}

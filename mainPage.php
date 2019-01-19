@@ -54,9 +54,12 @@
     <button class="btn btn-primary btn-lg float-right" type="button" id="edit">Edit</button>
     </div>
     <div class="notepad">
-        <textarea name="note" id="note" cols="30" rows="10"></textarea>
+        <textarea name="note" rows="10"></textarea>
     </div>    
 </div>
+<div class="notes" id="notes">
+</div>
+<!-- AJAX call here-->
     </div>
 </div>
 <!--LogIn-->
