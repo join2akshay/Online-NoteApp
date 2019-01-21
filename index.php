@@ -1,4 +1,4 @@
-<!doctype html>
+
 <html lang="en">
   <head>
     <title>Online Notes</title>
@@ -114,11 +114,11 @@
 </div>
 </form>
 <!--SingUp-->
-<form>
+<form method="post" id="singupForm">
 <div class="modal fade bd-example-modal-lg" tabindex="-1" id="singup">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
-
+ 
       <!-- Modal Header -->
       <div class="modal-header">
         <h4 class="modal-title">Sing Up today and start using our Online Note App</h4>
@@ -127,28 +127,36 @@
 
       <!-- Modal body -->
       <div class="modal-body">
-      <div class="input-group mb-3">
+      <!--Sign up message from PHP file-->
+ <div id="signupmessage"></div>
+      <div class=" form-group input-group mb-3">
   
-  <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+      <label for="username" class="sr-only">Username:</label>
+                      <input class="form-control" type="text" name="username" id="username" placeholder="Username" maxlength="30">
+
 </div>
-<div class="input-group mb-3">
+<div class="form-group input-group mb-3">
   
-  <input type="text" class="form-control" placeholder="Email Address" aria-label="Username" aria-describedby="basic-addon1">
+  <label for="username" class="sr-only">Email:</label>
+                      <input class="form-control" type="text" name="email" id="email" placeholder="Email" maxlength="30">
+
 </div>
-<div class="input-group mb-3">
+<div class=" form-group input-group mb-3">
   
-  <input type="text" class="form-control" placeholder="Password" aria-label="Username" aria-describedby="basic-addon1">
+<label for="username" class="sr-only">Password:</label>
+                      <input class="form-control" type="text" name="password" id="password" placeholder="Password" maxlength="30">
 </div>
-<div class="input-group mb-3">
+<div class="form-group input-group mb-3">
   
-  <input type="text" class="form-control" placeholder="Confirm Password" aria-label="Username" aria-describedby="basic-addon1">
+<label for="username" class="sr-only">Confrim Password:</label>
+                      <input class="form-control" type="text" name="password2" id="password2" placeholder="Confirm Password" maxlength="30">
 </div>
 
       </div>
 
       <!-- Modal footer -->
       <div class="modal-footer">
-        <button type="button" class="btn btn-success" data-dismiss="modal">Sing Up</button>
+        <input type="submit" class="btn btn-success">
       </div>
 
     </div>
@@ -161,8 +169,9 @@
 </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="index.js"></script>
   </body>
 </html>
